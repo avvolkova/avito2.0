@@ -1,0 +1,20 @@
+body {
+    padding: 50px;
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+    color: #00B7FF;
+}
+
+.category {
+    color: white;
+    decoration: 'none';
+    padding: 2px;
+    border: 1px solid grey;
+    background: linear-gradient(#696666, #110e0e)
+}
+
+.card {
+    width: 25vw;
+}

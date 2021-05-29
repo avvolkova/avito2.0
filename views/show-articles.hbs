@@ -1,0 +1,17 @@
+<div class="container">
+  <div class="row">
+    {{#each articles}}
+    <div class="col card" style="width: 18rem;">
+      <img
+        src="https://www.cnet.com/a/img/CSTqzAl5wJ57HHyASLD-a0vS2O0=/940x528/2021/04/05/9e065d90-51f2-46c5-bd3a-416fd4983c1a/elantra-1080p.jpg"
+        class="card-img-top" alt="..." />
+      <div class="card-body">
+        <h5 class="card-title">{{this.model}}</h5>
+        <p class="card-text">{{this.type}}</p>
+        <p class="card-text">{{this.milage}}</p>
+        <p class="card-text">{{this.price}}</p>
+      </div>
+    </div>
+    {{/each}}
+  </div>
+</div>
